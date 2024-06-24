@@ -11,6 +11,9 @@ This project implements a Convolutional Neural Network (CNN) architecture for ge
 ## Dataset and Training
 The dataset used for training consists of 195 facial images categorized into male and female. Each image is annotated with the corresponding gender label, ensuring accurate model training and evaluation. The complete dataset used for training this model is present in the dataset folder.
 
+## Model Architecture
+The CNN architecture is designed to effectively learn discriminative features from facial images to distinguish between male and female subjects. It comprises multiple convolutional layers for feature extraction, followed by fully connected layers for classification.
+
 ## Results
 The model demonstrates robust performance in gender classification, achieving a high accuracy of 95% on the test dataset. 
 
